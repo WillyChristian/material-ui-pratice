@@ -48,8 +48,12 @@ function App() {
   return (   
     <div className={gridStyle.root}>
       <ThemeProvider theme={customStyle}> 
-        {/* <Header />
-        <SideMenu /> */}
+        {/* 
+            --> Comentado apenas durante o teste com o Slider
+        <Header />
+        <SideMenu /> 
+        
+        */}
         <Slider />
       </ThemeProvider>
     </div>   

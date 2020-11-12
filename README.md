@@ -11,7 +11,7 @@ In the project directory, you can run:
 `npm run build`
 
 ### `Important`
-    This is a study work, whose purpose is only to copy the design as a means of practice. All creative rights must be granted
+This is a study work, whose purpose is only to copy the design as a means of practice. All creative rights must be granted
 to [Nadya Lazurenko](https://dribbble.com/NadyaLazurenko)
 
 ## Learn More

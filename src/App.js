@@ -8,7 +8,7 @@ import {
 //Components
 import Header from './components/header'
 import SideMenu from './components/side-menu'
-import Slider from './components/slider'
+import Slider from './components/Slider/slider'
 
 const customStyle = createMuiTheme({
   palette:{
@@ -48,12 +48,8 @@ function App() {
   return (   
     <div className={gridStyle.root}>
       <ThemeProvider theme={customStyle}> 
-        {/* 
-            --> Comentado apenas durante o teste com o Slider
         <Header />
         <SideMenu /> 
-        
-        */}
         <Slider />
       </ThemeProvider>
     </div>   

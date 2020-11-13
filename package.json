@@ -8,8 +8,10 @@
     "material-auto-rotating-carousel": "^3.0.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-elastic-carousel": "^0.9.4",
     "react-scripts": "4.0.0",
     "react-swipeable-views": "^0.13.9",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

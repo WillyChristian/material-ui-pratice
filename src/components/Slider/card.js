@@ -4,6 +4,7 @@ import {
     CardActionArea,
     CardMedia,
     makeStyles,
+    Paper,
 }from '@material-ui/core'
 
 const useStyles = makeStyles({
@@ -17,8 +18,11 @@ const useStyles = makeStyles({
         width: 300,
         margin: "0 25px"
     },
-    textContent:{
-        width:150
+    paperContainer:{
+        display: 'flex',
+        width: 'calc(100% - 200px)',
+        float: 'right',
+        boxShadow: 'none'
     }
 })
 
@@ -30,19 +34,19 @@ const imgs = [
 const CardSlides = () =>{
     const classes = useStyles()
     return (
-        <>
-        { imgs.map( imagem => 
-        <Card className={classes.root}>
-            <CardActionArea>
-                <CardMedia 
-                    className={classes.media}
-                    image={imagem.src}
-                    title={imagem.title}
-                    />
-            </CardActionArea>
-        </Card>
-        )}
-    </>
+        <Paper className={classes.paperContainer}>
+            { imgs.map( imagem => 
+            <Card className={classes.root}>
+                <CardActionArea>
+                    <CardMedia 
+                        className={classes.media}
+                        image={imagem.src}
+                        title={imagem.title}
+                        />
+                </CardActionArea>
+            </Card>
+            )}
+        </Paper>
     )
 }
 

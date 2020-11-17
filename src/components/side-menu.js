@@ -72,7 +72,7 @@ const SideMenu = () => {
                     <ListItemIcon> <PhoneAndroidOutlinedIcon /></ListItemIcon>
                     <ListItemText>Accessories</ListItemText>
                 </ListItem>
-                <ListItem>
+                <ListItem button>
                     <ListItemIcon><DesktopWindowsOutlinedIcon/></ListItemIcon>
                     <ListItemText>Outfit</ListItemText>
                 </ListItem>        

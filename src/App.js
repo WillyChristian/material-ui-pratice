@@ -2,7 +2,6 @@ import {
   ThemeProvider, 
   createMuiTheme, 
   CssBaseline,
-  makeStyles,
   Grid
 } from '@material-ui/core'
 
@@ -10,6 +9,7 @@ import {
 import Header from './components/header'
 import SideMenu from './components/side-menu'
 import Card from './components/Slider/card'
+import BottomContent from './components/bottom-content/index.js'
 
 const customStyle = createMuiTheme({
   palette:{
@@ -33,6 +33,9 @@ function App() {
         </Grid>
         <Grid item>
           <Card />
+        </Grid>
+        <Grid item >
+          <BottomContent />
         </Grid>
       </ThemeProvider>
     </div>   

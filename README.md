@@ -22,4 +22,3 @@ to [Nadya Lazurenko](https://dribbble.com/NadyaLazurenko)
 `Javascript`
 `Material-Ui`
 (until now)
-

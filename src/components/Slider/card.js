@@ -4,19 +4,18 @@ import {
     CardActionArea,
     CardMedia,
     makeStyles,
-    Typography,
-    CardContent
 }from '@material-ui/core'
 
 const useStyles = makeStyles({
     root: {
-        display: 'flex',
-        alignItems:'center',
-        margin: '5px 10px'
+        marginTop: '80px',
+        boxShadow: 'none',
+        width: '100%'
     },
     media:{
-        height:150,
-        width: 150,
+        height:320,
+        width: 300,
+        margin: "0 25px"
     },
     textContent:{
         width:150
@@ -41,11 +40,6 @@ const CardSlides = () =>{
                     title={imagem.title}
                     />
             </CardActionArea>
-            <CardContent className={classes.textContent}>
-                <Typography>
-                    {imagem.title}
-                </Typography>
-            </CardContent>
         </Card>
         )}
     </>

@@ -1,7 +1,7 @@
 import {
   ThemeProvider, 
   createMuiTheme, 
-  Grid,
+  CssBaseline,
   makeStyles
 } from '@material-ui/core'
 
@@ -23,7 +23,7 @@ const customStyle = createMuiTheme({
 
 const GridStyles = makeStyles({
   root:{
-    display: "flex"
+    display: "flex",
   },
   main:{
     backgroundColor: '#9a9b9c',
@@ -47,7 +47,8 @@ function App() {
   const gridStyle = GridStyles()
   return (   
     <div className={gridStyle.root}>
-      <ThemeProvider theme={customStyle}> 
+      <CssBaseline/>
+      <ThemeProvider theme={customStyle}>
         <Header />
         <SideMenu /> 
         <Slider />

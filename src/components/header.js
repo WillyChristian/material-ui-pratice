@@ -7,7 +7,7 @@ import SettingsIcon from '@material-ui/icons/Settings'
 const headerStyle = makeStyles((theme) =>({
     head: {
         boxShadow: 'none',
-        width:  `calc(100% - 240px)`,
+        width:  `calc(100% - 210px)`,
         float: 'rigth',
         
     },
